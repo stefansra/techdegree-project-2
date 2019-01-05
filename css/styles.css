@@ -1,3 +1,191 @@
 /* ================================= 
   Base Element Styles
 ==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+    color: #6d6d6d;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+    color: #000;
+}
+
+h2,
+h3 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.main-nav {
+    margin-top: 0.3125em;
+}
+
+.name a,
+.main-nav a {
+    display: block;
+    text-align: center;
+    padding: 0.625em 0.9375em;
+}
+
+.main-nav a {
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover {
+    color: #fff;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.main-nav ul li{
+    background-color: #fff;
+    margin-top: 0.5em;
+}
+
+.main-nav ul li:hover {
+    background-color: steelblue;
+}
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.banner {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    margin-bottom: 3.75em;
+}
+
+.portfolio {
+    margin-bottom: 3.75em;
+}
+
+.contact {
+    border-bottom: 1px solid #cfcfcf;
+    padding-top: 3.75em;
+    padding-bottom: 3.75em;
+}
+
+.main-footer {
+    padding: 2em 0;
+}
+
+.banner,
+.portfolio,
+.contact,
+.main-footer {
+    text-align: center;
+}
+
+.main-header,
+.portfolio,
+.banner,
+.contact,
+.main-footer {
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+}
+
+.main-header,
+.banner,
+.main-footer,
+.contact {
+    background-color: #f4f4f4;
+}
+
+/* ---- Page Elements ---- */
+
+.profile-image {
+    width: 300px;
+}
+
+.portfolio-heading {
+    text-transform: uppercase;
+    padding-bottom: 56.08px;
+}
+
+.project-img {
+    margin-bottom: 0.9375em;
+}
+
+.project-heading {
+    margin-bottom: 0;
+    padding-bottom: 0.3125em;
+}
+
+.project-txt {
+    margin-top: 0;
+}
+
+.contact-heading {
+    text-transform: uppercase;
+}
+
+.highlighted-bold {
+    font-weight: bold;
+    color: #2c2c2c;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.float-left,
+.float-right {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #000;
+}
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
