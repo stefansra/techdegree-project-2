@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC%7CSource+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -18,8 +18,9 @@
             <nav class="main-nav">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -27,7 +28,7 @@
 
     <div class="banner">
         <div class="container clearfix">
-            <img class="profile-image" src="images/responsive-layout-profile.png" alt="Picture of Stefan Schraberger">
+            <img class="profile-image" src="images/profile-img.jpeg" alt="Picture of Stefan Schraberger">
             <p class="banner-txt">
                 Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in
                 front-end web development at Treehouse and am excited to pull all my skills to use!
@@ -35,7 +36,7 @@
         </div>
     </div>
 
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <div class="container clearfix">
             <h2 class="portfolio-heading">Portfolio</h2>
             <div class="project-1 projects clearfix">
@@ -97,7 +98,73 @@
         </div>
     </div>
 
-    <div class="contact">
+    <div class="skills" id="skills">
+        <div class="container clearfix">
+            <h2 class="skills-heading">My Skills</h2>
+            <p class="skills-txt">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                ipsum dolor sit amet, consetetur sadipscing elitr.
+            </p>
+
+            <div class="html5 skills-list">
+                <img class="skills-img html5" src="images/html5.svg" alt="HTML5 Picture">
+                <h2 class="skill-subheading">HTML5</h2>
+                <p class="skills-txt">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat.
+                </p>
+            </div>
+
+            <div class="css3 skills-list">
+                <img class="skills-img css3" src="images/css3.svg" alt="CSS3 Picture">
+                <h2 class="skill-subheading">CSS3</h2>
+                <p class="skills-txt">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat.
+                </p>
+            </div>
+
+            <div class="sass skills-list">
+                <img class="skills-img sass" src="images/sass.svg" alt="SASS Picture">
+                <h2 class="skill-subheading">Sass</h2>
+                <p class="skills-txt">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat.
+                </p>
+            </div>
+
+            <div class="js skills-list">
+                <img class="skills-img js" src="images/js.svg" alt="Java Script Picture">
+                <h2 class="skill-subheading">Java Script</h2>
+                <p class="skills-txt">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat.
+                </p>
+            </div>
+
+            <div class="php skills-list">
+                <img class="skills-img php" src="images/php.svg" alt="PHP Picture">
+                <h2 class="skill-subheading">PHP</h2>
+                <p class="skills-txt">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat.
+                </p>
+            </div>
+
+            <div class="mysql skills-list">
+                <img class="skills-img mysql" src="images/mysql.svg" alt="MySQL Picture">
+                <h2 class="skill-subheading">MySQL</h2>
+                <p class="skills-txt">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
         <div class="container">
             <h3 class="contact-heading">Contact</h3>
             <p>
@@ -107,7 +174,7 @@
             </p>
             <p>
                 Phone &nbsp;&nbsp;<span class="highlighted-bold">+1 (111) 555-1234</span><br>
-                Email &nbsp;&nbsp<span class="highlighted-bold">email@yoursite.com</span>
+                Email &nbsp;&nbsp;<a class="mail highlighted-bold" href="mailto:email@yoursite.com">email@yoursite.com</a>
             </p>
         </div>
     </div>
@@ -117,8 +184,9 @@
             <p class="name-footer">Stefan Schraberger</p>
             <a class="back-to-top" href="#">Back to top</a>
             <ul class="nav-footer">
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#">Home</a></li>
             </ul>
         </div>
